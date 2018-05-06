@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './index.css';
 import  App from './App';
-import { Book, Engage, Appointment, Telemedicine } from './App';
+import { Book, Engage, Appointment, Telemedicine, Doctor, DrAppointment } from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
@@ -16,6 +16,8 @@ ReactDOM.render(
         <Route exact path="/engage" component={Engage} />
         <Route exact path="/appointment" component={Appointment} />
         <Route exact path="/telemedicine" component={Telemedicine} />
+        <Route exact path="/doctor" component={Doctor} />
+        <Route exact path="/drappointment" component={DrAppointment} />
       </div>
     </Router>,
     document.getElementById('root'));
