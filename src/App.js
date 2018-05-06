@@ -10,10 +10,10 @@ import { API_KEY, SESSION_ID, TOKEN } from "./config.js"
 
 export class Book extends Component {
   bookAppt() {
-    var url = "https://api.athenahealth.com/preview1/195900/appointments/965454?appointmenttypeid=522&ignoreschedulablepermission=true&patientid=32798"
+    var url = "https://api.athenahealth.com/preview1/195900/appointments/965442?appointmenttypeid=522&ignoreschedulablepermission=true&patientid=32798"
     var xhr = new XMLHttpRequest();
     xhr.open("PUT", url, true);
-    xhr.setRequestHeader('Authorization', 'Bearer 5w5pzg4naaqnwxmfkhazys7t');
+    xhr.setRequestHeader('Authorization', 'Bearer r73emgfq9dgffnfxzajqcxt4');
     xhr.setRequestHeader('X-Originating-Ip', '69.162.16.16');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
@@ -91,10 +91,10 @@ export class Book extends Component {
 
 export class Engage extends Component {
   cancelAppt() {
-    var url = "https://api.athenahealth.com/preview1/195900/appointments/965452/cancel?ignoreschedulablepermission=true&patientid=32798"
+    var url = "https://api.athenahealth.com/preview1/195900/appointments/965442/cancel?ignoreschedulablepermission=true&patientid=32798"
     var xhr = new XMLHttpRequest();
     xhr.open("PUT", url, true);
-    xhr.setRequestHeader('Authorization', 'Bearer 5w5pzg4naaqnwxmfkhazys7t');
+    xhr.setRequestHeader('Authorization', 'Bearer r73emgfq9dgffnfxzajqcxt4');
     xhr.setRequestHeader('X-Originating-Ip', '69.162.16.16');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
@@ -220,7 +220,7 @@ export class Appointment extends Component {
     var url = "https://api.athenahealth.com/preview1/195900/appointments/965455/startcheckin"
     var xhr = new XMLHttpRequest();
     xhr.open("POST", url, true);
-    xhr.setRequestHeader('Authorization', 'Bearer 5w5pzg4naaqnwxmfkhazys7t');
+    xhr.setRequestHeader('Authorization', 'Bearer r73emgfq9dgffnfxzajqcxt4');
     xhr.setRequestHeader('X-Originating-Ip', '69.162.16.16');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
