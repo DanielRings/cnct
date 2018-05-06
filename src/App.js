@@ -3,7 +3,8 @@ import { Grid, Navbar, Jumbotron, ButtonGroup, ToggleButtonGroup, Button, Toggle
 import { Link } from 'react-router-dom';
 import { OTSession, OTPublisher, OTStreams, OTSubscriber } from 'opentok-react';
 import logo from './cork.png';
-import avatar from './keyes.png';
+import avatar from './ProfileTherapist.png';
+import patientavatar from './person2.png';
 import './App.css';
 import { API_KEY, SESSION_ID, TOKEN } from "./config.js"
 
@@ -314,23 +315,17 @@ export class DrAppointment extends Component {
           <Grid>
             <div class="row">
               <div class="col-md-12">
-                <img src={avatar} className="App-avatar-large" alt="avatar" />
-                <h4 className="App-center">Miranda Keyes, PhD</h4>
-                <h4 className="App-center">(310) 117-2052</h4>
+                <img src={patientavatar} className="App-avatar-large" alt="avatar" />
+                <h4 className="App-center">Cassandra Jones</h4>
+                <h4 className="App-center">(313) 142-8873</h4>
                 <hr/>
               </div>
-              <div class="col-md-3"/>
-              <div class="col-md-3">
+              <div class="col-md-4"/>
+              <div class="col-md-4 App-center">
                 <p>Thursday, 10 May 2018</p>
                 <p>11:00 am - 12:00 pm</p>
               </div>
-              <div class="col-md-3">
-                <p class="App-right">
-                3234 Rodeo Drive<br/>
-                Suite B<br/>
-                Santa Monica, CA</p>
-              </div>
-              <div class="col-md-3"/>
+              <div class="col-md-4"/>
             </div>
             <div class="row">
               <div class="col-md-4"/>
