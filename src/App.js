@@ -369,7 +369,7 @@ export class Telemedicine extends Component {
                 <OTSession apiKey={API_KEY} sessionId={SESSION_ID} token={TOKEN}>
                   <OTPublisher properties={{width: "500px", height: "500px"}} />
                   <OTStreams>
-                    <OTSubscriber properties={{width: "250px", height: "250px"}}/>
+                    <OTSubscriber properties={{width: "500px", height: "500px"}}/>
                   </OTStreams>
                 </OTSession>
               </div>
