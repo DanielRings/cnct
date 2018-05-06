@@ -2,9 +2,87 @@
   text-align: center;
 }
 
+/* .navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+} */
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+/* .App-jumbotron {
+  margin-top: 80px;
+} */
+
+.App-user-info {
+  margin-top: 20px;
+}
+
+.massive-font{
+  font-size: 30px;
+  text-align: center;
+  }
+    
+.progress{
+height:50px;
+text-align:center;
+}
+
+.progress-bar {
+  padding:15px;
+}
+
+.App-progress-bar {
+  width: 67%;
+}
+
+.App-avatar {
+  margin-top: 50px;
+  height: 80px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-avatar-large {
+  margin-top: 50px;
+  height: 120px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-center {
+  text-align:center;
+}
+
+.App-right {
+  text-align:right;
+}
+
+.App-calendar-row {
+  margin-top: 20px;
+}
+
+.App-calendar-button {
+  width: 120px;
+}
+
+.App-question-button {
+  width: 340px;
+}
+
+.App-link-default {
+  text-decoration: none;
+  color: black;
+}
+
+.App-link-primary {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .App-header {
